@@ -15,7 +15,7 @@ Usage:
 */
 
 -- =============================================================================
--- Create Dimension: gold.dim_customers
+-- Create Dimension: gold.vw_customer_dim
 -- =============================================================================
 IF OBJECT_ID('gold.vw_customer_dim', 'V') IS NOT NULL
     DROP VIEW gold.vw_customer_dim;
@@ -42,7 +42,7 @@ CREATE VIEW gold.vw_customer_dim AS
         ON ci.cst_key = loc.CID;
 GO
 -- =============================================================================
--- Create Dimension: gold.dim_customers
+-- Create Dimension: gold.vw_product_dim
 -- =============================================================================
 IF OBJECT_ID('gold.vw_product_dim', 'V') IS NOT NULL
     DROP VIEW gold.vw_product_dim;
