@@ -1,6 +1,7 @@
 # data-warehouse
 A data warehouse using SQL Server, including ETL process, data modeling, &amp; analytics.
 
+Notion Workspace: https://woolen-daughter-971.notion.site/Data-Warehouse-Project-3903e39c71568003bd1ace214cc1a5eb?source=copy_link
 **Objective**
 
 Develop a modern data warehouse using SQL Server to combine sales data, enabling analytical reporting and informed decision-making.
